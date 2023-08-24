@@ -43,6 +43,7 @@ module.exports = {
     port: 3000,
     hot: true,
     historyApiFallback: true,
+    allowedHosts: ['.csb.app']
   },
   plugins: [
     new webpack.DefinePlugin({ __STATIC__ }),
